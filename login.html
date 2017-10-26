@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+        <style>
+            #header ul .nav nav-tabs li a {float: right;} 
+        </style>
+    </head> 
+    <body> 
+        <div id="Header"></div>
+	        <ul class="nav nav-tabs">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html" float="right" class="btn btn-warning nav-tabs-btn nav-tabs-right">Register</a></li>
+            </ul><br/><br/>
+        
+        <div id="login">
+            <form method="POST" action="login.php" align="center">
+                <legend>
+                    <fieldset>
+                        <label>Username:</label>
+                            <input type="text" name="username"/><br/><br/>
+                        <label>Password:</label>
+                            <input type="password" name="password"/><br/><br/>
+                            <input type="submit" value="Login" name="login_submit"/>
+                    </fieldset>
+                </legend>
+            </form>
+        </div><br/><br/>
+        
+       
+        <!...Sec Tab...!>
+        
+        
+        <!..Footer..>
+        <footer>
+            <hr>
+                <div class="container text-center">
+                    <h3 style="color:#0066FF">Subscribe for your medical Tips</h3>
+                    <p>Enter your name and email</p>
+                        <form action="subscribe.php" method="post" class="form-inline">
+                            <div class="form-group">
+                                <label for="subscription">Full name:</label>
+                                    <input type="text" name="name" placeholder="your name">
+                            </div>
+                            <div class="form-group">
+                                <label>Email address</label>
+                                    <input type="text" name="email" placeholder="Enter your Email">
+                            </div>
+                                <input type="submit" value="subscribe" class="btn btn-primary"/>
+                                <hr>
+                        </form>
+                        <hr> 
+                    <ul class="list-inline">
+                            <li><a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png" height="50px"/> </a></li>
+                            <li><a href="http://www.twitter.com" target="_blank"><img src="images/twitter.jpg" height="50px"/></a></li>
+                            <li><a href="http://www.linkedin.com" target="_blank"><img src="images/linkedin.png" height="50px"></a></li>
+                            <li><a href="http://www.wechat.com" target="_blank"><img src="images/wechat.png" height="50px"></a></li>
+                            <li><a href="http://www.google.com" target="_blank"><img src="images/google.png" height="50px"></a></li>
+                    </ul>
+                    <p> &copy Group 2</p>
+                </div>
+        </footer>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
